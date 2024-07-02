@@ -53,4 +53,4 @@ def update_moisture():
     return jsonify({'moisture': moisture_value})
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5100)
+    app.run(port = 5600)
